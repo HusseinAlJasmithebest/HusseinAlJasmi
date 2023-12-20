@@ -1,0 +1,27 @@
+{%extends 'base.html'%}
+<!DOCTYPE html>
+
+
+{%block head%}
+
+<title>Hussein Al Jasmi</title>
+<h1>
+  HOME PAGE
+</h1>
+
+
+
+{% endblock%}
+
+{%block body%} 
+
+<a href="{{ url_for('math') }}"> Math</a> 
+<a href="{{ url_for('programming') }}"> Programming</a> 
+<a href="{{ url_for('science') }}"> Science</a> 
+
+<p> body text blah blah we love tutors </p>
+
+
+
+
+{% endblock%}
